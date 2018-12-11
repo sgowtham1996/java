@@ -16,6 +16,9 @@ public class Student {
         public String getName(){
         return this.Name;
         }
+        public String toDetails(){
+        return "NAME:  "+this.Name+"  GRADE: "+ this.grad +"  ID:  "+ this.ID +"  GPA:  " +this.GPA +"  ABSENT:  " +this.abs;
+        }
     /*public boolean isGraduating() {
         return (GPA > 2.0 && abs < 10 && grad == 12);
     }
