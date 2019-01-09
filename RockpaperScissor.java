@@ -12,9 +12,10 @@ public class RockPaperScissor {
             System.out.print("player 1 wins!!!");
         } else if((playerOne.equals("scissor") && playerTwo.equals("rock") || (playerOne.equals("paper") && playerTwo.equals("scissor") || (playerOne.equals("rock") && playerTwo.equals("paper"))))){
             System.out.print("player 2 wins!!!");
-        } else
-            {
+        } else {
             System.out.print("Enter a valid input rock or paper or scissor");
         }
         }
     }
+
+
